@@ -1,9 +1,12 @@
 use Chinook
 
-/*
+/***********************************************************
+
+Number 21
 Provide a query that shows the count of customers assigned
- to each sales agent.
-*/
+to each sales agent.
+
+s************************************************************/
 
 select 
   EmployeeName = e.FirstName + ' ' + e.LastName,

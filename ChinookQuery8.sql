@@ -1,8 +1,11 @@
 use Chinook
 
-/*
+/***********************************************************
+
+Number 8
 How many Invoices were there in 2009 and 2011?
-*/
+
+************************************************************/
 
 select count(*) as NoOfInvoices
 from invoice

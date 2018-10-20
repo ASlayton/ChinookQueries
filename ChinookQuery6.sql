@@ -1,10 +1,13 @@
 use Chinook
 
-/*
-Provide a query that shows the invoices associated with each sales 
-agent. The resultant table should include the Sales Agent's full 
-name.
-*/
+/***********************************************************
+
+Number 6
+Provide a query that shows the invoices associated with
+each sales agent. The resultant table should include the 
+Sales Agent's full name.
+
+************************************************************/
 
 select 
   FullName = e.FirstName + ' ' + e.LastName,

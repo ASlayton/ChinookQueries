@@ -1,7 +1,11 @@
 use Chinook
-/*
+
+/************************************************************
+
+Number 24
 Provide a query that shows the most purchased track of 2013.
-*/
+
+*************************************************************/
 
 select top 1 
   t.Name, count(t.Name) as NumberOrdered

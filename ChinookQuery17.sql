@@ -1,7 +1,12 @@
 use Chinook
 
-/*Provide a query that shows all Invoices but includes the # of
- invoice line items.*/
+/***********************************************************
+
+Number 17
+Provide a query that shows all Invoices but includes the # of
+invoice line items.
+
+************************************************************/
 
  select
 	i.InvoiceId, 

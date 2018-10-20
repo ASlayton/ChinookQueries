@@ -1,9 +1,13 @@
 use Chinook
 
-/*
-Provide a query that shows all the Tracks, but displays no IDs.
- The result should include the Album name, Media type and Genre.
-*/
+/***********************************************************
+
+Number 16
+Provide a query that shows all the Tracks, but displays no 
+IDs.  The result should include the Album name, Media type
+and Genre.
+
+************************************************************/
 
 select distinct a.Title, m.Name, g.Name
 from Album a
