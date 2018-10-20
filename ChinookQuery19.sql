@@ -1,8 +1,11 @@
-use CHinook
+use Chinook
 
-/*
+/***********************************************************
+
+Number 19
  Which sales agent made the most in sales in 2009?
-*/
+
+************************************************************/
 
 select top 1
   e.FirstName, 

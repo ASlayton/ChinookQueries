@@ -1,7 +1,12 @@
 use Chinook
-/*
-Provide a query that shows total sales made by each sales agent.
-*/
+
+/***********************************************************
+
+Number 18
+Provide a query that shows total sales made by each sales 
+agent.
+
+************************************************************/
 
 select 
   e.FirstName, 

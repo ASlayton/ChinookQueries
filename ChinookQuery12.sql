@@ -1,8 +1,12 @@
 use Chinook
 
-/*
-Provide a query that includes the purchased track name with each invoice line item.
-*/
+/************************************************************
+
+Number 12
+Provide a query that includes the purchased track name with 
+each invoice line item.
+
+************************************************************/
 
 Select *
 From InvoiceLine i

@@ -1,7 +1,11 @@
 use Chinook
-/*
+
+/***********************************************************
+
+Number 9
 What are the respective total sales for each of those years
-*/
+
+************************************************************/
 
 select 
   datepart(yyyy, InvoiceDate) as Year,
